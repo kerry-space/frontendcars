@@ -1,0 +1,10 @@
+.car-list-container {
+    background-color: #2F4F4F; /* Dark Slate Gray */
+    color: white; /* Ensures text readability */
+  }
+  
+  .car-list-container {
+    background-size: cover; /* Cover ensures the background covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
