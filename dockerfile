@@ -17,11 +17,11 @@ RUN npm install --silent
 # Add app source code
 COPY . ./
 
+# Run tests (move this to a separate stage if required)
+RUN npm test
+
 # Generate the build of the application
 RUN npm run build
-
-# Run tests
-RUN npm test
 
 # Stage 2: Production build
 # You can include the production build stage here if needed
