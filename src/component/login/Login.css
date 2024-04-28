@@ -1,0 +1,17 @@
+/* LoginForm.css */
+#login-form {
+    padding: 50px 0;
+  }
+  
+  #login-form .form-group {
+    margin-bottom: 30px;
+  }
+  
+  #login-form input {
+    border-radius: 0;
+  }
+  
+  #login-form button {
+    border-radius: 0;
+  }
+  
