@@ -1,4 +1,4 @@
-const apiUrl = 'http://kerrysapi.chickenkiller.com/api/';
+const apiUrl = 'https://kerrysapi.chickenkiller.com/api/';
 
 //http://kerrysapi.chickenkiller.com/api/cars
 export const getCars = async () => {

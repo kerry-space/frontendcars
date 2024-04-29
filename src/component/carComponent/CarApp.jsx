@@ -35,7 +35,6 @@ function CarApp() {
     return <div className="alert alert-danger" role="alert">{error}</div>;
   }
 
-  
   return (
     <div className=" mt-5 pt-5">
       <div className=" text-center mb-5 hero">

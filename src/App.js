@@ -4,7 +4,7 @@ import PageWrapper from './component/PageWrapper.jsx';
 import Home from './component/Home.jsx';
 import About from './component/About.jsx';
 import Contact from './component/Contact.jsx';
-import CarForm from './component/carComponent/CarApp.jsx';
+import CarApp from './component/carComponent/CarApp.jsx';
 import Login from './component/login/Login.jsx';
 import PrivateRoute from './component/login/PrivateRoute.jsx';
 import { AuthProvider } from './component/login/AuthContext.js';
@@ -25,7 +25,7 @@ function App() {
             
               <Route path="/carCollection" element={
                 <PrivateRoute>
-                  <CarForm />
+                  <CarApp />
                 </PrivateRoute>
               } />
             </Routes>
